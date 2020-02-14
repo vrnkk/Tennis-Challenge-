@@ -62,9 +62,9 @@ You need a bach normalization layer between the hidden layers. Otherwise the age
 ## Performance 
 The training took quite a while and I had a couple of problems getting the machine stable to run until the end. So I stopped with testing hyperparameter combinations. Here you can see the performance results for the hyperparemeters mentioned aboce. 
 
-![Performance of the approach](.png)
+![Performance of the approach](https://github.com/vrnkk/Tennis-Challenge-/blob/master/performance_tennis.PNG)
 Performance of the score over the episodes. 
-It was solved in .... 
+It was solved within 1113 episodes.
 
 ## Ideas to Improve it
   * Hyperparameter Tuning
