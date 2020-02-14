@@ -18,6 +18,8 @@ The task is episodic, and in order to solve the environment, your agents must ge
 The environment is considered solved, when the average (over 100 episodes) of those scores is at least +0.5.
 
 # Description for implementation 
+Eather you use the udacity workspace to train the model. Or you can setup your environment descriped like [here](https://github.com/udacity/deep-reinforcement-learning#dependencies). 
+
 You can download your own environment and start implementing. At Udacity you also can use a provided workspace within the nanodegree setup. Usually I choose for this possibility. 
 
 First you get started with the Tennis.iypnb to train your own agent. 
