@@ -53,11 +53,11 @@ For the actor, the output layer has 2 nodes, which corresponds to the action siz
 You need a bach normalization layer between the hidden layers. Otherwise the agents will not solve the environment. Possibly because of the noise. 
 
 ## Hyperparameters
-the discount factor gamma=0.99
-the batch size is 512
-the actor learning rate is 1e-3 and the critic is 1e-2
-every 4 time steps we train both agents with one batch from the replay buffer.
-the noise is scaled with a factor of 0.7 and gradually reduce the noise by a factor of 0.9999 
+* the discount factor gamma=0.99
+* the batch size is 512
+* the actor learning rate is 1e-3 and the critic is 1e-2
+* every 4 time steps we train both agents with one batch from the replay buffer.
+* the noise is scaled with a factor of 0.7 and gradually reduce the noise by a factor of 0.9999 
 
 ## Performance 
 The training took quite a while. So I stopped with testing hyperparameter combinations. Here you can see the performance results for the hyperparemeters mentioned aboce. 
