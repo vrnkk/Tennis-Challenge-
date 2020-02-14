@@ -60,7 +60,7 @@ You need a bach normalization layer between the hidden layers. Otherwise the age
 * the noise is scaled with a factor of 0.7 and gradually reduce the noise by a factor of 0.9999 
 
 ## Performance 
-The training took quite a while. So I stopped with testing hyperparameter combinations. Here you can see the performance results for the hyperparemeters mentioned aboce. 
+The training took quite a while and I had a couple of problems getting the machine stable to run until the end. So I stopped with testing hyperparameter combinations. Here you can see the performance results for the hyperparemeters mentioned aboce. 
 
 ![Performance of the approach](.png)
 Performance of the score over the episodes. 
